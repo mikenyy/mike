@@ -1,0 +1,160 @@
+ 
+**{
+    margin:0;
+    padding: 0;
+    font-family: Open Sans;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;  
+  }
+  body{
+      background-color:#524949;
+      margin:40px 80px;
+  }
+
+
+
+.menu {
+    align-items: middle;
+    width: 100%;
+    padding-right: 0px;
+    background: TOP CENTER no-repeat white;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sofa{
+    background: TOP CENTER no-repeat white;
+  }
+
+  .picture{
+    background: TOP CENTER no-repeat white;
+  }
+
+img.sofa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+
+#top li {
+    margin-top: 20px;
+    border: BLACK;
+    display: inline;
+    float: left;
+    padding: 15px;
+    margin-right: 20px;
+    background-color:yellowgreen;
+    text-align: center;
+    box-sizing:border-box;
+
+}
+
+.table {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+ul li a:hover, ul li a:focus {
+        color:black;
+        background-color: yellowgreen;
+        display: inline;
+        border: BLACK;
+}
+
+.clear {
+    clear: both;
+    background: TOP CENTER no-repeat white
+}
+
+.paragraph:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.paragraph1, .paragraph2, .paragraph3 {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+    padding-right: 0px;
+    background-color: white;
+  }
+   
+
+.paragraph1 h1, .paragraph2 h1, .paragraph3 h1{
+    background-color:yellowgreen;
+    text-align: center;
+    box-sizing:border-box;
+    color: white;
+    padding: 30px;
+    
+  }
+
+
+  .detail1, .detail2, .detail3 {
+    float: left;
+    width: 33%;
+    padding-right: 0.33%;
+    background-color: white;
+    
+  }
+
+  .detail1 {
+    min-height: 283PX;
+
+  }
+
+
+  .detail:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer1, .footer2 {
+    float: left;
+    width: 50%;
+    /*margin:10px 30px;*/
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:TOP CENTER no-repeat white;
+
+}
+
+    #footieleft h1{
+        font-size: 40px;
+        color: white;
+        background-color:yellowgreen;
+        min-height: 135px;
+        min-width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+    #footieright {
+        background-color: #524949;
+        padding: 8px;
+        font-size: 10px;
+        
+        color: white;
+        min-height: 120PX;
+    }
+    .footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
